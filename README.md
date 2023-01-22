@@ -23,7 +23,7 @@ function gs() {return Math.floor(Math.random() * 10);}
 ```
 
 ### Description
-Adds random css and changes the colors, size, border, etc. (Click the image for better preview)
+Adds random css and changes the colors, size, border, etc. <a href="https://i.imgur.com/3A0ECdw.mp4">(Click here for better preview)</a>
 
 ### Preview on YouTube
 <img src="https://user-images.githubusercontent.com/66328734/213942929-ca31d77e-8063-4419-9f0b-ffa97981ae7e.png" href="https://i.imgur.com/3A0ECdw.mp4" />
