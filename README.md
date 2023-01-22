@@ -22,6 +22,10 @@ function gc() {var c = "#"; for (var i = 0; i < 6; i++) { c += "0123456789ABCDEF
 function gs() {return Math.floor(Math.random() * 10);}
 ```
 
+```javascript
+function gc(){for(var a="#",b=0;b<6;b++)a+="0123456789ABCDEF"[Math.floor(16*Math.random())];return a}function gs(){return Math.floor(10*Math.random())}var d=document.getElementsByTagName("div");setInterval(function(){for(var a=0;a<d.length;a++)d[a].style.backgroundColor=gc(),d[a].style.borderRadius=gs()+"px",d[a].style.fontSize=gs()+"rem",d[a].style.color=gc(),d[a].style.border=gs()+"px solid "+gc(),d[a].style.boxShadow="0 0 "+gs()+"px "+gc(),d[a].style.textShadow="0 0 "+gs()+"px "+gc()},10);
+```
+
 ### Description
 Adds random css and changes the colors, size, border, etc. <a href="https://i.imgur.com/3A0ECdw.mp4">(Click here for better preview)</a>
 
