@@ -1,5 +1,5 @@
-# FunnyJSPayloads
-funny javascript &amp; html payloads for XSS
+# XSSPayloads
+funny xss payloads
 
 
 ## Random Styles
